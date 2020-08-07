@@ -1,0 +1,2 @@
+- edit dataset/sample/ctdet : category + 1 || category 
+- python main.py ctdet --exp_id cmnd_dla_1x --batch_size 32 --master_batch 16 --lr 1.24e-4 --gpus 0,1 --num_workers 8 --flip 0 --rotate 30 --val_intervals 1000000
